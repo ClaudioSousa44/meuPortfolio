@@ -11,15 +11,7 @@
 
 }
 
-.section-title{
-    grid-area: title;
-    font-size: clamp(3rem,18vw, 14rem);
-    text-align: center;
-    background: linear-gradient( #fff , #000);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
+
 
 .description{
     grid-area: description;
@@ -74,7 +66,7 @@
 }
 
 .skills__icon i{
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .skills__icon span{

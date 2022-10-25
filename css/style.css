@@ -39,20 +39,18 @@ section{
     
 }
 
-.projetos{
-    background-color: skyblue;
-    width: 100%;
-}
 
-.contato{
-    background-color: greenyellow;
-    width: 100%;
-}
+
+
 
 footer{
-    height: 100px;
+    height: 50px;
     background-color: #0008;
     grid-area: content;
     place-self: end start;
     width: 100%;
+    display: grid;
+    place-content: center;
+    font-size: .75rem;
+    border-top: 2px solid #fff;
 }
