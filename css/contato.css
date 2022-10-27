@@ -58,3 +58,46 @@
 .link-title{
     font-size: 1.5rem;
 }
+
+
+@media (max-width: 960px){
+    .contato{
+      
+        height: 150vh;
+        grid-template-areas: 
+        "title title title"
+        "contato . link"
+        "social social social";
+        grid-template-rows: auto 400px 1fr;
+        padding: 0px 48px;
+       
+
+    }
+    .contato span{
+        font-size: 2rem;
+    }
+
+    .contato a{
+        font-size: 2rem;
+    }
+
+ 
+    .contato-title{
+        text-align: center;
+        font-size: 3rem;
+        
+    }
+    .link-title{
+        font-size: 3rem;
+    }
+
+
+    .social-item{
+        height:128px ;
+        width:128px ;
+    }
+
+    .social-item i{
+        font-size: 3rem;
+    }
+}

@@ -35,3 +35,19 @@
     transform: translateY(0%);
 
 }
+
+
+@media (max-width: 960px){
+    .projetos{
+        height: 370vh;
+        
+    }
+    .card-container{
+        flex-direction: column;
+        align-content: center;
+    }
+    .card img{
+        width: 672px;
+        height: 420px;
+    }
+}

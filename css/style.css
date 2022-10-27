@@ -54,3 +54,15 @@ footer{
     font-size: .75rem;
     border-top: 2px solid #fff;
 }
+
+
+@media (max-width: 960px) {
+    header{
+        max-width: 672px;
+    }
+     main .back{
+        display: none;
+    }
+   
+  
+}

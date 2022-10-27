@@ -19,3 +19,17 @@
     font-weight: 700;
     color: var(--primary-color);
 }
+
+
+@media (max-width: 960px){
+    .menu{
+        display: none;
+    }
+    
+    .home{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+   
+}
