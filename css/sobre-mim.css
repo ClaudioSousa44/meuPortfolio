@@ -113,3 +113,28 @@
     }
 
 }
+
+@media (max-width:640px){
+    .sobre-mim{
+        height: 380vh;
+        max-width: 300px;
+    }
+
+    .description{
+        max-width: 400px;
+    }
+
+    .skills{
+        text-align: left;
+    }
+
+    .skills__icon{
+        width: 200px;
+        height: 200px;
+       
+    }
+
+    .skills__icons{
+        transform: translateX(-5%);
+    }
+}

@@ -73,31 +73,32 @@
        
 
     }
-    .contato span{
-        font-size: 2rem;
-    }
-
-    .contato a{
-        font-size: 2rem;
-    }
-
+   
  
     .contato-title{
         text-align: center;
-        font-size: 3rem;
+
         
     }
-    .link-title{
-        font-size: 3rem;
+    
+}
+
+@media (max-width:640px){
+    .contato{
+        height: 130vh;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+    }
+    
+    .social-container{
+        display: flex;
+        flex-direction: column;
     }
 
-
-    .social-item{
-        height:128px ;
-        width:128px ;
+    .link-container{
+        text-align: center;
     }
 
-    .social-item i{
-        font-size: 3rem;
-    }
 }

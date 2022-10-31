@@ -33,3 +33,19 @@
     
    
 }
+
+@media (max-width:640px){
+    .home__text{
+        font-size: 1.5rem;
+    }
+
+    .home__name{
+        font-size: 2.5rem;
+    }
+
+    .div_home{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
