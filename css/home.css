@@ -22,9 +22,7 @@
 
 
 @media (max-width: 960px){
-    .menu{
-        display: none;
-    }
+   
     
     .home{
         flex-direction: column;
