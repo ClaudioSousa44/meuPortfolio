@@ -117,16 +117,24 @@
 @media (max-width:640px){
     .sobre-mim{
         height: 350vh;
-        max-width: 300px;
+        max-width: 500px;
     }
 
-    .description{
-        max-width: 400px;
+    .description__title{
+        text-align: center;
     }
+    .description__text{
+        text-align: center;
+    }
+
 
     .skills{
-        text-align: left;
+        text-align: center;
+        
+        
     }
+
+   
 
     .skills__icon{
         width: 200px;
@@ -135,6 +143,6 @@
     }
 
     .skills__icons{
-        transform: translateX(-5%);
+       
     }
 }
