@@ -36,6 +36,11 @@
 
 }
 
+.img{
+    width: 320px;
+    height: 200px;
+}
+
 
 @media (max-width: 960px){
     .projetos{
